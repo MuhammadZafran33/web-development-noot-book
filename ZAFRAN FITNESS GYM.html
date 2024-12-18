@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://127.0.0.1:5500/index.html?# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZAFRAN FITNESS GYM</title>
+    <link rel="stylesheet" href="./ZAFRAN FITNESS GYM_files/style.css">
+    
+    <style>
+        /* css reset */
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/zafran.png');
+        }
+        .left{
+            position: absolute;
+            left: 30px;
+            top: 20px;
+            display: inline-block;
+            /* border: 3px solid rgb(120, 223, 88); */
+        }
+        .mid{
+            display: block;
+            width: 38%;
+            /* border: 3px solid rgb(222, 19, 19); */
+            margin: 20px auto;
+        }
+        .right{
+            position: absolute;
+            right: 10px;
+            top: 20px;
+            display: inline-block;
+            /* border: 3px solid rgb(225, 231, 43); */
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            font-size: 16px;
+            display: inline-block;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 34px 8px;
+        }
+        .navbar li a:hover, .navbar li a.active{
+            text-decoration: underline;
+            color: bisque;
+        }
+        .left img{
+            width: 140px;
+            filter: invert(100%);
+        }
+        .left div{
+            text-align: center;
+            line-height: 20px;
+            font-size: 15px;
+        }
+        .btn{
+            margin: 0px 9px;
+            color: white;
+            background-color: black;
+            padding: 4px 14px;
+            border: 3px solid rgb(42, 227, 231);
+            border-radius: 10px;
+            font-size: 15px;
+            cursor: pointer;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .btn:hover{
+            background-color: rgb(56, 71, 99);
+        }
+        .container{
+            border: 2px solid rgb(253, 182, 75);
+            margin: 90px 25px;
+            padding: 40px;
+            width: 33%;
+            border-radius: 6px;
+            top: 10px;
+        }
+        .form-group input{
+            border: 2px solid rgb(241, 9, 9);
+            text-align: center;
+            display: block;
+            width: 400px;
+            padding: 2px;
+            margin: 10px auto;
+            font-size: 18px;
+            border-radius: 10px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .container h1{
+            text-align: center;
+        }
+        .container button{
+            display: block;
+            width: 50%;
+            margin: 2px auto;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+    <!-- left box for logo -->
+        <div class="left">
+        <img src="./ZAFRAN FITNESS GYM_files/gym.png" alt="">
+        <div>ADNAN Fitness Gym</div>
+        
+    </div>
+    <!-- mid box for navbar-->
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href="http://127.0.0.1:5500/index.html?#" class="active">Home</a></li>
+            <li><a href="http://127.0.0.1:5500/index.html?#">About Us</a></li>
+            <li><a href="http://127.0.0.1:5500/index.html?#">Fitness Calculator</a></li>
+            <li><a href="http://127.0.0.1:5500/index.html?#">Contact Us</a></li>
+        </ul>     
+    </div>
+    <!-- right box for buttons -->
+    <div class="right">
+    <button class="btn">Call Us Now</button>
+    <button class="btn">Email Us</button>
+    </div>
+
+    </header>
+     <br>
+     <br>
+
+    <div class="container"> 
+    <h1>Join The Best Gym Of Peshawar Now</h1>
+    <form class="noaction.php">
+          <div class="form-group">
+            <input type="text" name="" placeholder="ENTER YOUR NAME HERE">
+          </div>
+          <div class="form-group">
+            <input type="text" name="" placeholder="ENTER YOUR F.NAME">
+          </div>
+          <div class="form-group">
+            <input type="text" name="" placeholder="ENTER YOUR LOCATION">
+          </div>
+          <div class="form-group">
+            <input type="number" name="" placeholder="ENTER YOUR PHONE NO.">
+          </div>
+          <div class="form-group">
+            <input type="text" name="" placeholder="ENTER YOUR GENDER">
+          </div>
+          <div class="form-group">
+            <input type="number" name="" placeholder="ENTER YOUR AGE">
+          </div>
+          <button class="btn">Submit</button>
+    </form>
+    </div>
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
